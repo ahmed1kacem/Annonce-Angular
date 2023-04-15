@@ -1,0 +1,76 @@
+<footer>
+    <div class="footer__area footer-bg">
+       <div [ngClass]="footerPadd ? footerPadd : 'footer__top pt-150 pb-40' ">
+          <div class="container">
+             <div class="row">
+                <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-4 col-sm-12">
+                   <div class="footer__widget mb-50">
+                      <div class="footer__widget-head mb-22">
+                         <div class="footer__logo">
+                            <a [routerLink]="['/']">
+                               <img src="assets/img/logo/logo-2.png" alt="">
+                            </a>
+                         </div>
+                      </div>
+                      <div class="footer__widget-body">
+                         <p>Campus Universitaire de la Manouba 2010, Tunisie </p>
+
+                         <div class="footer__social">
+                            <ul>
+                               <li><a href="#"><i class="social_facebook"></i></a></li>
+                            </ul>
+                         </div>
+                      </div>
+                   </div>
+                </div>
+                <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-4 col-sm-12">
+                   <div class="footer__widget mb-50">
+                      <div class="footer__widget-head mb-22">
+                         <h3 class="footer__widget-title">Company</h3>
+                      </div>
+                      <div class="footer__widget-body">
+                         <div class="footer__link">
+                            <ul>
+                               <li><a [routerLink]="['/home']">Home</a></li>
+                               <li><a [routerLink]="['/dashboard']">Dashboard</a></li>
+                               <li><a [routerLink]="['/sign-in']">Sign In</a></li>
+                               <li><a [routerLink]="['/sign-up']">Sign Up</a></li>
+                            </ul>
+                         </div>
+                      </div>
+                   </div>
+                </div>
+                <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-4 col-sm-12">
+                   <div class="footer__widget mb-50">
+                      <div class="footer__widget-head mb-22">
+                         <h3 class="footer__widget-title">Contact</h3>
+                      </div>
+                      <div class="footer__widget-body">
+                         <div class="footer__link">
+                            <ul>
+                               <li>Tél : <a href="tel:+21670241900">(216) 70 241 900</a></li>
+                               <li>Fax :  (216) 71 60 19 30</li>
+
+                               <li>Email :<a href="mailto:info@cck.rnu.tn"> info@cck.rnu.tn</a></li>
+                            </ul>
+                         </div>
+                      </div>
+                   </div>
+                </div>
+
+             </div>
+          </div>
+       </div>
+       <div class="footer__bottom">
+          <div class="container">
+             <div class="row">
+                <div class="col-xxl-12">
+                   <div class="footer__copyright text-center">
+                      <p>© 2023 Portail Annonces, All Rights Reserved.</p>
+                   </div>
+                </div>
+             </div>
+          </div>
+       </div>
+    </div>
+ </footer>

@@ -1,0 +1,49 @@
+<section class="hero__area hero__height  d-flex align-items-center  p-relative fix  mt-90" >
+  <div class="hero__shape " style="z-index: 10;">
+     <img class="hero-1-circle" src="assets/img/shape/hero/hero-1-circle.png" alt="">
+     <img class="hero-1-circle-2" src="assets/img/shape/hero/hero-1-circle-2.png" alt="">
+     <img class="hero-1-dot-2" src="assets/img/shape/hero/hero-1-dot-2.png" alt="">
+  </div>
+
+  <div class="mw-100" >
+     <div class="hero__content-wrapper " >
+        <div class="row align-items-center">
+            <div class="testimonial__slider swiper-container">
+               <div class="testimonial__slider-inner ">
+                  <swiper class="swiper-wrapper" [slidesPerView]="1" [loop]="true"
+                     [navigation]="{nextEl:'.swiper-button-next',prevEl:'.swiper-button-prev'}" [autoplay]="{
+                       delay: 5000,
+                       disableOnInteraction: false
+                   }">
+                     <ng-template swiperSlide>
+                        <div class="testimonial__item text-center bg-image">
+
+                           <img src="assets/img/slider/slider-1.jpg" alt="Background1">
+                           <div class="mask" style="background-color: hsla(0, 0%, 0%, 0.8)">
+                            <div class="d-flex justify-content-center align-items-center h-100">
+                              <h1 class="text-white mb-0">Titre 1</h1>
+                            </div>
+                          </div>
+
+                        </div>
+                     </ng-template>
+                     <ng-template swiperSlide>
+                        <div class="testimonial__item text-center bg-image">
+                         <img src="assets/img/slider/slider-2.jpg" alt="Background2">
+                         <div class="mask" style="background-color: hsla(0, 0%, 0%, 0.8)">
+                          <div class="d-flex justify-content-center align-items-center h-100">
+                            <h1 class="text-white mb-0">Titre 2</h1>
+                          </div>
+                        </div>
+
+                       </div>
+                     </ng-template>
+                  </swiper>
+
+               </div>
+            </div>
+
+        </div>
+     </div>
+  </div>
+</section>
